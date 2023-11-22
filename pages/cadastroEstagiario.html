@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/formulario.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div>
+                Logo
+            </div>
+            <div>
+                <a href="./estagiarios.html">Estagiarios</a>
+                <a href="./cadastroEstagiario.html">Cadastro</a>
+                <a href="./calculadoraFerias.html">Calculadora</a>
+                <a href="./solicitarFerias.html">Ferias</a>
+                <a href="./desligamento.html">Desligamento</a>
+                <a href="./legislacao.html">Legislação</a>
+                <button id="btnLogout">Logout</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2 class="titulo">Cadastro de Estagiario</h2>
+        <section>
+            <form>
+                <div>
+                    <div class="inputLabel">
+                        <label for="nome">Nome:</label>
+                        <input class="form-control" id="nome" type="text" placeholder="Nome" name="nome" required>
+                    </div>
+    
+                    <div class="inputLabel">
+                        <label for="cpf">CPF:</label>
+                        <input class="form-control" id="CPF" type="text" placeholder="CPF" name="cpf" required>
+                    </div>
+    
+                    <div class="inputLabel">
+                        <label for="genero">Gênero:</label>
+                        <input class="form-control" id="genero" type="text" placeholder="Gênero" name="genero" required>
+                    </div>
+    
+                    <div class="inputLabel">
+                        <label for="endereco">Endereço:</label>
+                        <input class="form-control" id="endereco" type="text" placeholder="Endereço" name="endereco"
+                            required>
+                    </div>
+    
+                    <div class="inputLabel">
+                        <label for="dataNascimento">Data de Nascimento:</label>
+                        <input class="form-control" id="dataNascimento" type="date" name="dataNascimento" required>
+                    </div>
+                    <div class="inputLabel">
+                        <label for="empresaNome">Nome da Empresa:</label>
+                        <input class="form-control" id="empresaNome" type="text" placeholder="Nome da Empresa"
+                            name="empresaNome" required>
+                    </div>
+    
+                    <div class="inputLabel">
+                        <label for="cargo">Cargo:</label>
+                        <input class="form-control" id="cargo" type="text" placeholder="Cargo" name="cargo" required>
+                    </div>
+    
+                    <div class="inputLabel">
+                        <label for="bolsaAuxilio">Bolsa Auxílio:</label>
+                        <input class="form-control" id="bolsaAuxilio" type="number" placeholder="Bolsa Auxílio"
+                            name="bolsaAuxilio" required>
+                    </div>
+    
+                    <div class="inputLabel">
+                        <label for="dataInicio">Data de Início:</label>
+                        <input class="form-control" id="dataInicio" type="date" name="dataInicio" required>
+                    </div>
+
+                    <div class="inputLabel">
+                        <label for="dataFim">Data de Fim:</label>
+                        <input class="form-control" id="dataFim" type="date" name="dataFim" required>
+                    </div>
+                </div>
+    
+                <div>
+                    <button type="submit" id="btnCadastrarEstagiario" class="btn btn-primary">Enviar</button>
+                    <button type="submit" id="btnEditarEstagiario" class="btn btn-warning">Editar</button>
+                </div>
+            </form>
+        </section>
+    
+        <section id="preencherEstagiarios">
+            <h3 class="titulo">Estagiarios</h3>
+            <select>
+                <option></option>
+            </select>
+            <button id="btnPreencherFormulario" class="btn btn-warning">Preencher</button>
+            <button id="btnCancelar" class="btn btn-danger">Cancelar</button>
+        </section>
+    </main>
+
+</body>
+
+<script type="module" src="../js/script/cadastroEstagiario.js"></script>
+<script type="module" src="../js/script/login.js"></script>
+
+</html>

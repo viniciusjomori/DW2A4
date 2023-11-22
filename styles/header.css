@@ -1,0 +1,44 @@
+header {
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #6ea3e2;
+    color: white;
+
+    font-size: 18px;
+
+    margin-bottom: 12px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+header a {
+    color: white
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #800080
+}
+
+#btnLogout {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+
+    color: white
+}
+
+#btnLogout:hover {
+    color: #800080
+}

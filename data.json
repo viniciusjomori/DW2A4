@@ -1,0 +1,122 @@
+[
+  {
+    "nome": "Estagiário 1",
+    "cpf": "123.456.789-01",
+    "genero": "Masculino",
+    "endereco": "Endereço 1",
+    "dataNascimento": "2000-01-15",
+    "empresaNome": "Empresa A",
+    "cargo": "Estagiário de TI",
+    "bolsaAuxilio": 1000,
+    "dataInicio": "2023-01-10",
+    "dataFim": "2023-07-10"
+  },
+  {
+    "nome": "Estagiário 2",
+    "cpf": "234.567.890-12",
+    "genero": "Feminino",
+    "endereco": "Endereço 2",
+    "dataNascimento": "2001-03-20",
+    "empresaNome": "Empresa B",
+    "cargo": "Estagiário de Marketing",
+    "bolsaAuxilio": 900,
+    "dataInicio": "2023-02-15",
+    "dataFim": "2023-08-15"
+  },
+  {
+    "nome": "Estagiário 3",
+    "cpf": "345.678.901-23",
+    "genero": "Outro",
+    "endereco": "Endereço 3",
+    "dataNascimento": "2002-05-25",
+    "empresaNome": "Empresa C",
+    "cargo": "Estagiário de RH",
+    "bolsaAuxilio": 1100,
+    "dataInicio": "2023-03-20",
+    "dataFim": "2023-09-20"
+  },
+  {
+    "nome": "Estagiário 4",
+    "cpf": "456.789.012-34",
+    "genero": "Masculino",
+    "endereco": "Endereço 4",
+    "dataNascimento": "2003-07-30",
+    "empresaNome": "Empresa A",
+    "cargo": "Estagiário de Vendas",
+    "bolsaAuxilio": 950,
+    "dataInicio": "2023-04-25",
+    "dataFim": "2024-10-25"
+  },
+  {
+    "nome": "Estagiário 5",
+    "cpf": "567.890.123-45",
+    "genero": "Feminino",
+    "endereco": "Endereço 5",
+    "dataNascimento": "2004-09-05",
+    "empresaNome": "Empresa B",
+    "cargo": "Estagiário de TI",
+    "bolsaAuxilio": 1050,
+    "dataInicio": "2023-05-30",
+    "dataFim": "2024-11-30"
+  },
+  {
+    "nome": "Estagiário 6",
+    "cpf": "678.901.234-56",
+    "genero": "Outro",
+    "endereco": "Endereço 6",
+    "dataNascimento": "2005-11-10",
+    "empresaNome": "Empresa C",
+    "cargo": "Estagiário de Marketing",
+    "bolsaAuxilio": 920,
+    "dataInicio": "2023-06-10",
+    "dataFim": "2024-12-10"
+  },
+  {
+    "nome": "Estagiário 7",
+    "cpf": "789.012.345-67",
+    "genero": "Masculino",
+    "endereco": "Endereço 7",
+    "dataNascimento": "2006-01-15",
+    "empresaNome": "Empresa A",
+    "cargo": "Estagiário de RH",
+    "bolsaAuxilio": 1150,
+    "dataInicio": "2023-07-15",
+    "dataFim": "2024-01-15"
+  },
+  {
+    "nome": "Estagiário 8",
+    "cpf": "890.123.456-78",
+    "genero": "Feminino",
+    "endereco": "Endereço 8",
+    "dataNascimento": "2007-03-20",
+    "empresaNome": "Empresa B",
+    "cargo": "Estagiário de Vendas",
+    "bolsaAuxilio": 980,
+    "dataInicio": "2023-08-20",
+    "dataFim": "2024-02-20"
+  },
+  {
+    "nome": "Estagiário 9",
+    "cpf": "901.234.567-89",
+    "genero": "Outro",
+    "endereco": "Endereço 9",
+    "dataNascimento": "2008-05-25",
+    "empresaNome": "Empresa C",
+    "cargo": "Estagiário de TI",
+    "bolsaAuxilio": 1020,
+    "dataInicio": "2023-09-25",
+    "dataFim": "2024-03-25"
+  },
+  {
+    "nome": "Estagiário 10",
+    "cpf": "012.345.678-90",
+    "genero": "Masculino",
+    "endereco": "Endereço 10",
+    "dataNascimento": "2009-07-30",
+    "empresaNome": "Empresa A",
+    "cargo": "Estagiário de Marketing",
+    "bolsaAuxilio": 940,
+    "dataInicio": "2023-10-30",
+    "dataFim": "2024-04-30"
+  }
+]

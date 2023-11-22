@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/formulario.css" />
+    <link rel="stylesheet" href="/styles/solicitarFerias.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div>
+                Logo
+            </div>
+            <div>
+                <a href="./estagiarios.html">Estagiarios</a>
+                <a href="./cadastroEstagiario.html">Cadastro</a>
+                <a href="./calculadoraFerias.html">Calculadora</a>
+                <a href="./solicitarFerias.html">Ferias</a>
+                <a href="./desligamento.html">Desligamento</a>
+                <a href="./legislacao.html">Legislação</a>
+                <button id="btnLogout">Logout</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2 class="titulo">Ferias</h2>
+        </div>
+        <div id="estagiarios">
+            <h3 class="titulo">Estagiarios</h3>
+            <select class="formforEach">
+            </select>
+            <button id="btnSelecionarEstagiario" class="btn btn-warning">Preencher</button>
+        </div>
+        <div>
+            <span>Ferias disponíveis: </span>
+            <span id="feriasDisponiveis"></span>
+        </div>
+        <div class="invisible" id="ferias">
+            <h3 class="titulo">Solicitar</h3>
+            <form>
+                <div class="inputLabel">
+                    <label>Início das Ferias</label>
+                    <input class="form-control" type="date" id="inicioFerias" name="dataInicio" required>
+                </div>
+                <div class="inputLabel">
+                    <label>Fim das ferias</label>
+                    <input class="form-control" type="date" id="fimFerias" name="dataInicio" required>
+                </div>
+                <button id="btnSolicitarFerias" class="btn btn-primary">Solicitar</button>
+            </form>
+            <table class="table" id="tabelaFeriasSolicitadas">
+                <thead>
+                    <tr>
+                        <th scope="col">Inicio</th>
+                        <th scope="col">Fim</th>
+                        <th scope="col">Período</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </main>
+</body>
+<script type="module" src="/js/script/solicitarFerias.js"></script>
+<script type="module" src="../js/script/login.js"></script>
+
+</html>

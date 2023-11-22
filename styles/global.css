@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulo {
+    border-left: rgb(59, 59, 236) solid 6px;
+}
+
+.titulo::before {
+    content: "\00a0 "
+}
+
+.sameLine {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sameLine > * {
+    width: 45%
+}
+
+section {
+    width: 90%;
+    margin: 24px auto
+}
+
+.invisible {
+    display: none
+}
+
+main {
+    width: 90%;
+    margin: 0 auto
+}
